@@ -1,26 +1,33 @@
 // Categorías de productos
 const CATEGORIES = [
-    'Cohetes',
-    'Fuentes',
-    'Petardos',
+    'Bombetas',
     'Bengalas',
-    'Baterías'
+    'Petardos',
+    'Tracas',
+    'Fuentes',
+    'Cohetes',
+    'Baterías',
+    'Trueno',
+    'Voladores',
+    'Terrestres',
+    'Humo',
+    'Lotes'
 ];
 
 // Estructura básica de productos
 const products = [
     {
-        name: 'Cohete Multicolor',
-        price: 29.99,
-        categories: ['Cohetes'],
-        image: 'assets/images/products/cohete-multicolor.jpg'
+        name: 'Bombeta Granfes',
+        price: 2,
+        categories: ['Bombetas'],
+        image: 'assets/images/bombetas/Bombeta_Granfes_50+10.jpg'
     },
     {
-        name: 'Fuente Luminosa',
-        price: 39.99,
-        categories: ['Fuentes'],
-        image: 'assets/images/products/fuente-luminosa.jpg'
-    }
+        name: 'Mini Bombetas',
+        price: 1,
+        categories: ['Bombetas'],
+        image: 'assets/images/bombetas/Mini_bombetas.jpg'
+    },
     // Añade más productos aquí
 ];
 

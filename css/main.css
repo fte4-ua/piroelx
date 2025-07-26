@@ -181,3 +181,37 @@ footer {
         height: 300px;
     }
 }
+
+.dropdown {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    min-width: 200px;
+    z-index: 1000;
+}
+
+.dropdown:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu a {
+    padding: 10px 15px;
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+
+.submenu a:hover {
+    background-color: #f5f5f5;
+}
